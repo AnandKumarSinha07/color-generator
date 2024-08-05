@@ -1,5 +1,6 @@
 import './App.css';
-import ImageSlider from './components/image-slider/ImageSlider';
+import Load from './components/loadData/Load';
+//import ImageSlider from './components/image-slider/ImageSlider';
 //import StarRating from './components/star-rating/StarRating';
 //import { ToastContainer} from 'react-toastify';
 // import  Randome from "./components/randomColor/Randome"
@@ -10,7 +11,8 @@ function App() {
       {/* <ToastContainer/> */}
       {/* <StarRating data={10} /> */}
 
-     <ImageSlider url={"https://picsum.photos/v2/list"} limit={'10'} page={'1'}/>
+     {/* <ImageSlider url={"https://picsum.photos/v2/list"} limit={'10'} page={'1'}/> */}
+     <Load/>
     </div>
   );
 }
