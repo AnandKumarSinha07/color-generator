@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.input-section{
+    display: flex;
+    gap: 5px;
+
+}
+
+.input-section>input{
+    padding: 4px 7px;
+    box-shadow: 4px 2px 3px rgb(123, 117, 117);
+    outline: none;
+    border: none;
+}
+
+.input-section>button{
+    padding: 4px 7px;
+    background-color: azure;
+    color: black;
+    box-shadow: 4px 2px 3px rgb(123, 117, 117);
+    outline: none;
+    border: 3px solid white;
+    font-weight: bold;
+}
+h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.input-section,button:hover{
+    color: red;
+}
+
